@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">W3d5_quiz2</string>
+    <string name="lbl_random">RANDOM</string>
+    <string name="lbl_tv_name"> %1$s</string>
+    <string name="lbl_tv_address"> %1$s</string>
+    <string name="lbl_tv_email"> %1$s</string>
+    <string name="lbl_save">SAVE</string>
+    <string name="lbl_hint_name">Enter Name</string>
+    <string name="lbl_search">SEARCH</string>
+    <string name="lbl_name">Name:</string>
+    <string name="lbl_address">Address:</string>
+    <string name="lbl_email">Email:</string>
+</resources>
