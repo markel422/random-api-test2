@@ -27,13 +27,13 @@ public class SearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
 
-        TextView nameTV = (TextView) findViewById(R.id.lbl_name);
-        TextView addressTV = (TextView) findViewById(R.id.lbl_address);
-        TextView emailTV = (TextView) findViewById(R.id.lbl_email);
+        nameTV = (TextView) findViewById(R.id.lbl_name);
+        addressTV = (TextView) findViewById(R.id.lbl_address);
+        emailTV = (TextView) findViewById(R.id.lbl_email);
 
-        ImageView imageTV = (ImageView) findViewById(R.id.lbl_img);
+        imageTV = (ImageView) findViewById(R.id.lbl_img);
 
-        TextView resultTV = (TextView) findViewById(R.id.lbl_tv_result);
+        resultTV = (TextView) findViewById(R.id.lbl_tv_result);
         resultTV.setText("");
 
         Intent intent = getIntent();
